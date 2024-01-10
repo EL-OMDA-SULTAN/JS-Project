@@ -1,0 +1,78 @@
+body {
+    background-image: image-set("photo2/17.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding-bottom: 0%;
+    /* opacity: 0.5; */
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#h1 {
+    color: rgb(97, 31, 44);
+    border-radius: 30px;
+    background-color: rgb(63, 178, 182);
+    width: 810px;
+    text-align: center;
+    margin-left: 350px;
+    border: 3px solid rgb(88, 85, 85);
+}
+
+label {
+    background-color: coral;
+    border-radius: 30px;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+
+input {
+    width: 280px;
+}
+
+input,
+button {
+    padding: 5px;
+    margin: 2px;
+    font-size: 17px;
+    font-weight: bold;
+    border: 3px solid rgb(88, 85, 85);
+    border-radius: 20px;
+}
+
+.o {
+    width: 40px;
+    height: 40px;
+}
+
+#div2 {
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: 350px;
+    border: 3px solid rgb(88, 85, 85);
+    transition: width 2s, height 2s;
+}
+
+img:hover {
+    width: 700px;
+    height: 380px;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+.div1 {
+    background-color: rgb(63, 178, 182);
+    padding: 10px;
+    padding-top: 5px;
+    text-align: center;
+    margin-left: 350px;
+    width: 800px;
+    height: 570px;
+    border: 3px solid rgb(88, 85, 85);
+    border-radius: 20px;
+}
